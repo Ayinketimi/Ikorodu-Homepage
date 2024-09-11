@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+</style>
+
+body {
+    font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-style: normal; 
+  margin: 0px;
+}
+#hero {
+  background-image: url(/image.jpg/Ikorodumarket.jpg);
+    background-size:  cover;
+    height: 400px;
+padding: 10px 0 40px 0;
+text-align: center;
+color: #f1faee ;
+}
+.vist {
+    background-color: #1d3557;
+    border: 1px solid #1d3557;
+    border-radius: 10px;
+    padding: 6px 12px;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0px 0px 4px black;
+
+    
+}
+.enjoy {
+    background-color: #457b9d;
+border: 1px solid #457b9d;
+border-radius: 10px;
+padding: 6px 12px;
+margin-top: 6px;
+}
+.tour{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #1d3557;
+    font-size: smaller;
+    text-align: center;
+
+}
+#museum {
+    border-radius: 50px;
+width: 100px;
+}
+#center {
+    border-radius: 60px;
+width: 100px;
+height: 100px;
+}
+#beach {
+    border-radius: 50px;
+width: 100px;
+height: 100px;
+}
+#top {
+    text-align: center;
+    color: #1d3557;
+    margin-bottom: 50px;
+}
+#col {
+    background-color: #f1faef;
+}
+
+.avatar {width: 150px; 
+border-radius: 10px;}
+
+    .Card {
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        width: 400px;
+        justify-content: space-around;
+        text-align: center;
+        background: #a8dadc;
+        color:#1d3557; ;
+        border-bottom: 6px solid #1d3557 ;
+        margin: 60px auto;
+        border-radius: 10px;
+    }
+    
